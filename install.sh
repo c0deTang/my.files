@@ -81,7 +81,7 @@ echo "Enjoy!"
 echo | echo | vim +PluginInstall +qall &>/dev/null
 
 cd ~/.vim/bundle/YouCompleteMe
-./install.py --clang-completer
+./install.sh --clang-completer
 
 cd
 ln -sf my.files/cmake .cmake
