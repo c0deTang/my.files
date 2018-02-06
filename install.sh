@@ -49,7 +49,7 @@ fi
 
 if [ ! -d "$INSTALLDIR" ]; then
   echo "As we can't find my.files in the current directory, we will create it."
-  git clone git://github.com/byzhang/my.files.git $INSTALLDIR
+  git clone git://github.com/c0deTang/my.files.git $INSTALLDIR
   create_symlinks
   cd $INSTALLDIR
 
